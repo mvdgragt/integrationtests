@@ -1,7 +1,7 @@
 {
   "name": "vitest",
   "version": "1.0.0",
-  "description": "",
+  "description": "> **Tutorial video:** [Integration Testing with the Pizza Shop](https://www.youtube.com/watch?v=Ydlo-f1Mdl4)",
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
@@ -13,5 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "vitest": "^4.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonalMahe/integration-Github-Actions.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SonalMahe/integration-Github-Actions/issues"
+  },
+  "homepage": "https://github.com/SonalMahe/integration-Github-Actions#readme"
 }
