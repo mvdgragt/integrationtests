@@ -19,7 +19,7 @@ describe("Coffee Shop - Integration Test", () => {
   it("should successfully order a cappuccino and return true", () => {
     const consoleSpy = vi.spyOn(console, "log").mockImplementation(() => {});
     const result = orderDrink("cappuccino");
-    expect(result).toBe(false);
+    expect(result).toBe(true);
     consoleSpy.mockRestore();
   });
 });
