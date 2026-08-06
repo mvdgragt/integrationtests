@@ -1,6 +1,5 @@
 // math.test.ts
-import { describe, it, expect } from "vitest";
-import { add } from "./math";
+const { add } = require("./math");
 
 describe("add", () => {
   it("sums two numbers", () => {

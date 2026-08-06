@@ -1,5 +1,4 @@
-import { describe, test, expect } from "vitest";
-import { createPizza, orderPizza, sendOrder } from "./pizzashop";
+const { createPizza, orderPizza, sendOrder } = require("./pizzashop");
 
 describe("Pizza Shop Unit Tests", () => {
   test("createPizza returns correct type and price", () => {

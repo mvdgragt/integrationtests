@@ -1,4 +1,4 @@
-export const createPizza = (type) => {
+const createPizza = (type) => {
   const menu = {
     margherita: 100,
     pepperoni: 120,
@@ -14,7 +14,7 @@ const sendOrder = (pizza) => {
 
 const chargeCustomer = (orderId, amount) => {
   if (!orderId) {
-    throw new Error("Cannot charge the cutomer without a valid order ID!");
+    throw new Error("Cannot charge the customer without a valid order ID!");
   }
   console.log(`Charging ${amount}SEK for order #${orderId}`);
   return true;
@@ -27,4 +27,8 @@ const orderPizza = (pizzaType) => {
   return paymentSuccess;
 };
 
-export { sendOrder, orderPizza };
+module.exports = {
+  createPizza,
+  sendOrder,
+  orderPizza,
+};
